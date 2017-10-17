@@ -32,7 +32,7 @@ public class shapeUtilities {
 		case 2:
 			return new Square(r.nextInt(100)+1);
 		default:
-			return ;
+			return new Square(r.nextInt(100)+1);
 		}
 	}
 }
